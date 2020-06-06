@@ -24,9 +24,10 @@ public class MessageServiceController {
     }
 
     @PostMapping("/message")
-    public void deliver(@RequestBody Message message) {
+    public String deliver(@RequestBody Message message) {
         LOG.info("Entered into deliver");
         messageDataManager.deliverMessageToMail(message);
+        return "Message Received";
     }
 
     @GetMapping("/messages/{email:.+}")
