@@ -1,0 +1,9 @@
+
+.idea/$CACHE_FILE$
+*.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/MavenWrapperDownloader.java
+message-service-data/.mvn/wrapper/maven-wrapper.jar
+message-service-data/.mvn/wrapper/maven-wrapper.properties
+message-service-data/.mvn/wrapper/MavenWrapperDownloader.java
+message-service-data/.mvn/wrapper/maven-wrapper.jar
