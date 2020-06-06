@@ -1,4 +1,4 @@
-# Foobar
+# Message Service
 
 Message Service is a Rest API for delivering, fetching and deleting messages to a particular email/username/phoneNumber.
 
